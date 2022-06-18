@@ -1,9 +1,15 @@
+import Blogs from "./components/Blogs";
+import Hola from "./components/index/Hola";
 
-import './App.css';
+
 
 function App() {
+
+ 
   return (
-    <div className="App">
+    <div >
+      <Hola/>
+      <Blogs/>
       
     </div>
   );
