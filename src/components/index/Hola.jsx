@@ -33,7 +33,7 @@ const Hola = ()=>{
     ]
 
   return (
-    <div className='mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none'>
+    <div className='mt-12 max-w-lg mx-auto grid gap-5 md:grid-cols-3 md:max-w-none'>
         { 
             posts ?
             posts.map(post =>(
