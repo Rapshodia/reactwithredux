@@ -8,8 +8,9 @@ function Card({
     imageUrl
 }) {
   return (
-    <div class="mt-12  mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-lg lg:min-w-max  ">
-        <div className='flex flex-col rounded-lg shadow-lg overflow-hidden'>
+    
+    <div class="mt-12   mx-auto  grid lg:grid-cols-3 lg:min-w-max   ">
+        <div className='flex flex-col rounded-lg shadow-lg overflow-hidden '>
             <div className='flex-shrink-0'>
                 <img className='h-48 w-full object-cover' src="https://images.unsplash.com/photo-1655326525214-a49dbe71975f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="prueba" />
             </div>

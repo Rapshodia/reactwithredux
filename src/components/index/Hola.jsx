@@ -5,7 +5,7 @@ import Card from '../Card'
 
 
 const Hola = ()=>{
-
+    
     const posts = [
     {
         title: 'boost your conversation rate',
@@ -33,7 +33,7 @@ const Hola = ()=>{
     ]
 
   return (
-    <div className='mt-12 max-w-lg mx-auto grid gap-5 md:grid-cols-3 md:max-w-none'>
+    <div className='grid grid-cols-3 gap-10'>
         { 
             posts ?
             posts.map(post =>(
@@ -43,7 +43,12 @@ const Hola = ()=>{
                 category={post.categorytegory}
                 description={post.description}
                 imageUrl={post.imageUrl}/>
-            )):<>Loading...</>
+            )):
+            <div className='animate-pulse'>
+                <div className='w-full h-36 bg-gray-100'></div>
+                <div className='w-full my-1 h4 bg-gray-100'></div>
+                <div className='w-full my-1 h4 bg-gray-100'></div>
+            </div>
         }
         
     </div>

@@ -1,6 +1,7 @@
-import Blogs from "./components/Blogs";
-import Formulario from "./components/Formulario";
-import Hola from "./components/index/Hola";
+import { AcademicCapIcon} from '@heroicons/react/solid'
+
+
+import MyDropdown from './components/MyDropdown'
 
 
 
@@ -8,11 +9,14 @@ function App() {
 
  
   return (
-    <div >
-      <Hola/>
-      <Formulario/>
-      <Blogs/>
-    </div>
+    <div className='inline-flex'>
+      
+      <AcademicCapIcon className="text-green-300 inline-flex h-12 w-12"/>Hola
+      <MyDropdown/>
+      
+
+      
+  </div>
   );
 }
 
